@@ -13,7 +13,7 @@ a{
     background-size: cover;
     background-repeat: repeat;
     grid-template-columns: 200px minmax(0px, 1fr) minmax(500px, 750px);
-    background: #136a8a;  /* fallback for old browsers */
+    background: #136a8a;  
     background: linear-gradient(to right, #003e2f, #017659);             
     position: fixed;
     top: 0;
@@ -61,7 +61,7 @@ a{
 .signin-bt{
     margin: auto;
     box-sizing: border-box;
-    background-color: rgb(248, 69, 69);
+    background-color: #f84545;
     color: white;
     font: 17px 'Josefin Sans', sans-serif;
     padding: 7px;
@@ -73,13 +73,13 @@ a{
 
 .signin-bt:hover{
     border: 1px solid;
-    box-shadow:  0 0 5px 2px rgb(255, 85, 85);
+    box-shadow:  0 0 5px 2px #ff5555;
 }
 
 .search-img{
     margin: auto;
     box-sizing: border-box;
-    background-color: rgb(169, 255, 10);
+    background-color: #a9ff0a;
     padding: 7px;
     padding-bottom: 3px;
     border-radius: 4px;
@@ -88,5 +88,5 @@ a{
 }
 .search-img:hover{
     border: 1px solid;
-    box-shadow:  0 0 5px 2px rgb(191, 255, 148);
+    box-shadow:  0 0 5px 2px #bfff94;
 }

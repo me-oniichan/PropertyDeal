@@ -1,6 +1,6 @@
 .bgimage{
     background: black;
-    background-image: linear-gradient(to top, #000000c0, #00000088,#00000031,#00000000), url(/assets/img/slide-1.jpg);
+    background-image: linear-gradient(to top, #000000c0, #00000088,#00000031,#00000000), url(../img/slide-1.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
