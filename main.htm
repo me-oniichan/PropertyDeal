@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/navbar.css">
+    <link rel="stylesheet" href="assets/css/intro.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Poppins:wght@500;900&display=swap"
+        rel="stylesheet">
+
+    <title>Property deals</title>
+</head>
+
+<script src="/assets/js/script.js"></script>
+
+<body style="overflow-x: hidden;">
+
+    <div class="bgimage">
+        <!--Nvaigation Bar HTML structure-->
+        <nav class="navbar">
+            <img src="/assets/img/gonii-nav.png" alt="" class="logo">
+            <!--logo Image-->
+            <div style=></div>
+            <ul class="menu">
+
+                <!--Navigation Bar menu-->
+                <li class="nav-item">HOME</li>
+                <li class="nav-item">ABOUT</li>
+                <li class="nav-item">EXPLORE</li>
+                <li class="nav-item" onclick="openBuy()">BUY</li>
+                <li class="nav-item">SELL</li>
+                <li class="" id="Signin" style="margin: auto;"><a href="signin.htm"><button class="signin-bt">Sign
+                            In</button></a></li>
+                <li class="" id="search" style="margin: auto; padding-right: 20px;"><img src="/assets/img/find.png"
+                        alt="" class="search-img" width="40px"></li>
+            </ul>
+        </nav>
+        <!-- Navigationbar finish -->
+
+        <!--Header Layout-->
+        <header class="intro">
+            <div class="container">
+                <div class="intro-text">
+                    <div class="upper-intro-text">
+                        FIND YOUR
+                    </div>
+                    <div class="lower-intro-text">
+                        OWN PALACE
+                    </div>
+                </div>
+                <form action="" class="search-form" inputmode="url">
+                    <input id="location" spellcheck="false" class="form-child form-font" list="options"
+                        placeholder="Location">
+                    <datalist id="options">
+                        <option value="value1">
+                        <option value="value2">
+                        <option value="value3">
+                        <option value="value4">
+                        <option value="value5">
+                        <option value="value1">
+                        <option value="value6">
+                        <option value="value7">
+                        <option value="value8">
+                        <option value="value9">
+                        <option value="value10">
+                    </datalist>
+                    </input>
+
+                    <select id="type" spellcheck="false" class="form-child form-font" title="type">
+                        <option value="" class="types">Category</option>
+                        <option value="" class="types">type1</option>
+                        <option value="" class="types">type2</option>
+                        <option value="" class="types">typ3</option>
+                        <option value="" class="types">typ4</option>
+                        <option value="" class="types">type5</option>
+                    </select>
+                    <select id="price" spellcheck="false" class="form-child form-font">
+                        <option value="" class="prices">$10000</option>
+                        <option value="" class="prices">$20000</option>
+                        <option value="" class="prices">$30000</option>
+                        <option value="" class="prices">$40000</option>
+                        <option value="" class="prices">$50000</option>
+                    </select>
+                    <div class="form-child" style="display: inherit;">
+                        <button type="submit" class="sub-button form-font">SEARCH</button>
+                    </div>
+                </form>
+            </div>
+        </header>
+        <!-- Header End -->
+    </div>
+    <!--Intro End-->
+    <section id="keypoints" class="margin-7">
+        <div class="topic-text">OUR SERVICES</div>
+        <!--Webisite highlights and keypoints-->
+
+        <div class="keypoints">
+            <div class="keypoint-element">
+                <div class="key-img-border"><img src="assets/img/payment.png" alt="" class="keyimg"></div>
+                <p class="key-head font">
+                    Find Your Ideal Price
+                </p>
+                <p class="key-desc font">We provide the most ideal and best prices overall country. Experience our
+                    vast pricing flexibility and choose best for yourself.</p>
+            </div>
+            <div class="keypoint-element">
+                <div class="key-img-border"><img src="assets/img/sell.png" alt="" class="keyimg"></div>
+                <p class="key-head font">
+                    Sell Your Old Assests
+                </p>
+                <p class="key-desc font">Not only you can buy, but also you can sell your properties at greatest prices in the market. Our deals speeak for ourselves.
+                </p>
+            </div>
+            <div class="keypoint-element">
+                <div class="key-img-border"><img src="assets/img/trusted.png" alt="" class="keyimg"></div>
+                <p class="key-head font">
+                    Trusted By 10k users
+                </p>
+                <p class="key-desc font">Our client entrust us for most fair and acceptable deals. We never dissapoint you, be our one of trusted client. 
+                </p>
+            </div>
+        </div>
+    </section>
+    <!--Keypoints End-->
+
+    <section id="recent" class="margin-7">
+        <div class="topic-text">RECENTLY ADDED</div>
+        <div class="container">
+            <div class="imgs-cont"
+                style="background-image: linear-gradient(to top, #000000c0, #00000088,#00000031,#00000000), url(/assets/img/property-1.jpg);">
+                <div class="prop-name">157 Lorem Street</div>
+                <div class="prop-add">Kolkata</div>
+                <button class="button-green">Buy | $50000</button>
+            </div>
+            <div class="imgs-cont"
+                style="background-image: linear-gradient(to top, #000000c0, #00000088,#00000031,#00000000), url(/assets/img/property-2.jpg);">
+                <div class="prop-name">269 Senet House</div>
+                <div class="prop-add">Delhi</div>
+                <button class="button-green">Buy | $35000</button>
+            </div>
+            <div class="imgs-cont"
+                style="background-image: linear-gradient(to top, #000000c0, #00000088,#00000031,#00000000), url(/assets/img/property-3.jpg);">
+                <div class="prop-name">321 Section House</div>
+                <div class="prop-add">Delhi</div>
+                <button class="button-green">Buy | $30000</button>
+            </div>
+            <div class="imgs-cont"
+                style="background-image: linear-gradient(to top, #000000c0, #00000088,#00000031,#00000000), url(/assets/img/property-4.jpg);">
+                <div class="prop-name">128 Fort Williams</div>
+                <div class="prop-add">Kolkata</div>
+                <button class="button-green">Buy | $20000</button>
+            </div>
+            <div class="imgs-cont"
+                style="background-image: linear-gradient(to top, #000000c0, #00000088,#00000031,#00000000), url(/assets/img/property-5.jpg);">
+                <div class="prop-name">250 West Lines</div>
+                <div class="prop-add">Bangalore</div>
+                <button class="button-green">Buy | $45000</button>
+            </div>
+            <div class="imgs-cont"
+                style="background-image: linear-gradient(to top, #000000c0, #00000088,#00000031,#00000000), url(/assets/img/property-6.jpg);">
+                <div class="prop-name">243 West Gates</div>
+                <div class="prop-add">Bangalore</div>
+                <button class="button-green">Buy | $40000</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Agents Info start -->
+    <section class="margin-7" id="top-agents">
+        <div class="topic-text">TOP AGENTS</div>
+        <div class="container">
+            <div class="imgs-cont"
+                style="background-image: linear-gradient(to top, #000000c0, #00000075, #00000000, #00000000), url(/assets/img/agent-1.jpg); grid-template-rows: 9fr 1fr 0.5fr;">
+                <div class="prop-name">Norman</div>
+                <div class="agent-contact">
+                    <button class="button-green"> <img src="assets/img/mail.png" style="height: 1.5em;"> <span
+                            style="position: relative; top: -5px;"> Mail</span></button>
+                    <button class="button-green" class="button-green">
+                        <img src="assets/img/call.png" style="height: 1.5em;"> <span
+                            style="position: relative; top: -5px;"> Contact</span></button>
+                    </button>
+                </div>
+            </div>
+            <div class="imgs-cont"
+                style="background-image: linear-gradient(to top, #000000c0, #00000075, #00000000, #00000000), url(/assets/img/agent-2.jpg); grid-template-rows: 9fr 1fr 0.5fr;">
+                <div class="prop-name">Chitoge Krisaki</div>
+                <div class="agent-contact">
+                    <button class="button-green"> <img src="assets/img/mail.png" style="height: 1.5em;"> <span
+                            style="position: relative; top: -5px;"> Mail</span></button>
+                    <button class="button-green" class="button-green">
+                        <img src="assets/img/call.png" style="height: 1.5em;"> <span
+                            style="position: relative; top: -5px;"> Contact</span></button>
+                    </button>
+                </div>
+            </div>
+            <div class="imgs-cont"
+                style="background-image: linear-gradient(to top, #000000c0, #00000000, #00000000), url(/assets/img/agent-3.jpg);  grid-template-rows: 9fr 1fr 0.5fr;">
+                <div class="prop-name">Kyosuke Hirata</div>
+                <div class="agent-contact">
+                    <button class="button-green"> <img src="assets/img/mail.png" style="height: 1.5em;"> <span
+                            style="position: relative; top: -5px;"> Mail</span></button>
+                    <button class="button-green" class="button-green">
+                        <img src="assets/img/call.png" style="height: 1.5em;"> <span
+                            style="position: relative; top: -5px;"> Contact</span></button>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Agents Info End -->
+
+    <!-- Holiday Pack -->
+    <section id="holiday" class="margin-7">
+        <div class="topic-text">HOLIDAY PLANS</div>
+        <div class="container">
+            <div class="holiday-slogan">Plan your next vocation with us</div>
+            <div class="holiday-img-cont">
+                <div class="holiday-img" style="background-image: url(assets/img/new-york.jpg);">
+                    <span class="holiday-text">NEW YORK</span>
+                </div>
+                <div class="holiday-img" style="background-image: url(assets/img/barcelona.jpg);">
+                    <span class="holiday-text">BARCELONA</span>
+                </div>
+                <div class="holiday-img" style="background-image: url(assets/img/prague.jpg);">
+                    <span class="holiday-text">PRAGUE</span>
+                </div>
+                <div class="holiday-img" style="background-image: url(assets/img/paris.jpg);">
+                    <span class="holiday-text">PARIS</span>
+                </div>
+                <div class="holiday-img" style="background-image: url(assets/img/new-york.jpg);">
+                    <span class="holiday-text">INDIA</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Holiday Pack End -->
+
+    <!-- Testimonials -->
+    <div id="testimonials" class="margin-7">
+        <div class="topic-text">TESTIMONIALS</div>
+        <div class="test-outer-cont">
+            <fieldset>
+                <legend><img src="assets/img/avatar-test.jpg" class="test-img-pfp">
+                </legend>
+                <div class="testimonial-cont">
+                    <div style="display: grid; grid-auto-flow: column;">
+                        <img src="assets/img/quote.png" class="test-img-quote">
+                        <div class="test-comment">
+                            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem fuga quibusdam
+                                placeat quae id earum iusto ipsam quaerat! Error, fugit?</p>
+                        </div>
+                    </div>
+                    <div class="test-name">Lorem, ipsum dolor.</div>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend><img src="assets/img/avatar-test.jpg" class="test-img-pfp">
+                </legend>
+                <div class="testimonial-cont">
+                    <div style="display: grid; grid-auto-flow: column;">
+                        <img src="assets/img/quote.png" class="test-img-quote">
+                        <div class="test-comment">
+                            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem fuga quibusdam
+                                placeat quae id earum iusto ipsam quaerat! Error, fugit?</p>
+                        </div>
+                    </div>
+                    <div class="test-name">Lorem, ipsum dolor.</div>
+                </div>
+            </fieldset>
+        </div>
+    </div>
+</body>
+
+</html>

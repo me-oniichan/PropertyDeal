@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/signin.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Poppins:wght@500;900&display=swap"
+        rel="stylesheet">
+
+    <title>Property deals</title>
+</head>
+
+<body class="signin">
+    <div class="page-sep">
+        <div class="container">
+            <form action="" method="post" class="row-4">
+                <a href="main.htm"><center><img class="logo" src="/assets/img/gonii-main.png" alt=""></center></a>
+                <div class="form-child" id="name-data" style="display: none;">
+                    <input class="credential sub" type="text" name="username" id="" placeholder="First Name">
+                    <input class="credential sub" type="text" name="username" id="" placeholder="Last Name">
+                </div>
+                <div class="form-child">
+                    <img src="/assets/img/user.png" alt="" class="icon">
+                    <input class="credential" type="text" name="username" id="" placeholder="username" required>
+                </div>
+                <div class="form-child">
+                    <img src="/assets/img/lock.png" alt="" class="icon">
+                    <input class="credential" type="password" name="password" id="" placeholder="password">
+                </div>
+                <div class="form-child">
+                    <input class="submit" type="submit" value="Login">
+                </div>
+                <div style="margin: auto; color: #dddddd;">
+                    <span class="foot">Forgot password?</span> &nbsp; | &nbsp; <span class="foot" id="signup"
+                        onclick="toogleName()">New user? Sign up</span>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="/assets/js/login.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,235 @@
+.margin-7 {
+    margin: 0 7% 0 7%;
+}
+
+.keypoints {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: center;
+    gap: 20px;
+}
+
+.keypoint-element {
+    width: minmax(350px, 1fr);
+    justify-content: center;
+}
+
+.key-img-border {
+    display: grid;
+    justify-content: center;
+}
+
+.keyimg {
+    box-sizing: border-box;
+    padding: 8px;
+    width: 80px;
+    border: 6px solid #2eca6ae7;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.font {
+    font-family: 'poppins', sans-serif;
+    text-align: center;
+}
+
+.key-title {
+    color: #09532bd0;
+    font-family: 'poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    padding-top: 1.5rem;
+    margin-bottom: 1.7em;
+}
+
+.key-head {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #1e1e1e;
+}
+
+.key-desc {
+    font-size: 1em;
+    color: #636363;
+    font-weight: 100;
+    line-height: 1.5;
+    padding-bottom: 1.5em;
+}
+
+.topic-text {
+    text-align: left;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3em;
+    font-weight: 500;
+    margin-bottom: 4rem;
+    margin-top: 2em;
+}
+
+
+#recent>.container,
+#top-agents>.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 400px);
+    gap: 20px;
+    justify-content: center;
+}
+
+.imgs-cont {
+    width: 390px;
+    height: 400px;
+    display: block;
+    background-position: center center;
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 9fr 1fr 1fr 0.5fr;
+    align-items: flex-end;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+.imgs-cont:hover {
+    box-shadow: 0 0 10px 1px #00ff5f;
+    position: relative;
+    top: -1px;
+}
+
+.imgs {
+    margin: auto;
+    width: 390px;
+    box-sizing: border-box;
+}
+
+.prop-name {
+    color: #70f1a1e7;
+    font: 2em 'Josefin Sans', sans-serif;
+}
+
+.prop-add {
+    color: white;
+    font: 1.5rem 'Josefin Sans', sans-serif;
+}
+
+.button-green {
+    border: 2px solid #1dd564e7;
+    border-radius: 6px;
+    color: white;
+    background-color: transparent;
+    font: 1rem 'Josefin Sans', sans-serif;
+    width: max-content;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.agent-contact>.button-green {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.button-green:hover {
+    box-shadow: 0 0 3px 1px #50f790e7;
+    background-color: #1dd564e7;
+    cursor: pointer;
+}
+
+.holiday-slogan {
+    font-family: 'poppins', sans-serif;
+    font-size: 1.4em;
+    color: #ffcad3;
+    padding: 15px 5% 25px;
+}
+
+.holiday-img-cont {
+    display: grid;
+    grid-template-columns: repeat(5, 230px);
+    gap: 10px;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    justify-content: center;
+}
+
+/* Hide scorll bar */
+.holiday-img-cont::-webkit-scrollbar {
+    width: 0;
+}
+
+.holiday-img {
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 5px;
+    width: 220px;
+    height: 330px;
+    border-radius: 15px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.holiday-img:hover {
+    box-shadow: 0 0 7px 1px #07fff3;
+    position: relative;
+    top: -2.5px;
+}
+
+.holiday-text {
+    position: absolute;
+    color: white;
+    padding: 5px 5px 20px 20px;
+    font: 1.2em 'josefinsans', sans-serif;
+    font-weight: 600;
+    border-radius: 0px 20px 0px 20px;
+    background-color: #4141415f;
+}
+
+#holiday>.container{
+    background: linear-gradient(to right, #145162, #a8b2aa);
+    padding: 15px 0px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.test-outer-cont{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.testimonial-cont{
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    align-items: center;
+}
+
+.test-img-pfp{
+    width: 60px;
+    border-radius: 50px;
+    border: 5px solid #b8eba7;
+}
+.test-img-quote{
+    width: 110px;
+    display: inline;
+    float: left;
+    padding-right: 20px;
+}
+
+.test-comment{
+    display: inline;
+    float: inline-end;
+    font: 0.9rem 'poppins', sans-serif;
+    color: grey;
+}
+
+.test-name{
+    font: 1.2em 'josefinsans', serif;
+    padding-left: 50px;
+    font-weight: 600;
+}
+
+fieldset{
+    background-color: #edfef01f;
+    border-radius: 15px;
+    box-shadow: 0 0 8px 1px #5c5c5c67;
+    padding: 25px 20px 20px 50px;
+    border: none;
+    margin: 8%;
+    margin-top: 0%;
+}

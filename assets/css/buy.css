@@ -1,0 +1,11 @@
+.price-tag{
+    color: #fcfcfc;
+    font: 2em 'josefinsans', sans-serif;
+    margin: 10px;
+}
+
+.buy-bt{
+    float: right;
+    padding: 7px 20px 7px 20px;
+    margin: 10px;
+}
