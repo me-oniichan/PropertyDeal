@@ -1,11 +1,53 @@
-.price-tag{
-    color: #fcfcfc;
-    font: 2em 'josefinsans', sans-serif;
-    margin: 10px;
+.buy-container-upper{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+}
+
+.box-fix{
+    width: 500px;
+    height: 500px;
+    display: block;
+    background-image: url(../img/property-1.jpg);
+    background-position: center center;
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 90% 10%;
+}
+
+.box-bottom{
+    background-color: #14141499;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    padding: 0 20px;
 }
 
 .buy-bt{
-    float: right;
+    margin : 5px 0px 10px auto;
     padding: 7px 20px 7px 20px;
-    margin: 10px;
+    border-radius: 5px;
+    font-size: 21px;
+}
+
+.about-desc{
+    font-size: 20px;
+    color: #434343;
+    line-height: 1.4;
+    font-family:  "Poppins", sans-serif;
+    text-align: left;
+}
+
+.amenities{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.list-item{
+    list-style: square;
+    text-align: left;
+    margin: 9px;
+    color: rgb(90, 90, 90);
+    font-size: 18px;
+    font-family:  "Poppins", sans-serif;
 }

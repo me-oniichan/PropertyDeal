@@ -128,6 +128,7 @@
 .button-green:hover {
     box-shadow: 0 0 3px 1px #50f790e7;
     background-color: #1dd564e7;
+    border-color: white;
     cursor: pointer;
 }
 
