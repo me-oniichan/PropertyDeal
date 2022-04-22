@@ -72,22 +72,50 @@
         <div class="buy-container">
             <fieldset class="form-grp">
                 <legend class="price-tag">$10000</legend>
-                <form action="post" method="get" class =  "buy-form">
-                    <fieldset class="input-cover" id = "field1">
-                        <legend class = "legend-title">Full Name</legend>
-                        <input class ="input-field" type="text" name="name" id="client-name" onfocus="Borderon('field1')" onblur="Borderoff('field1')" required>
+                <form action="post" method="get" class="buy-form">
+                    <fieldset class="input-cover" id="field1">
+                        <legend class="legend-title">Full Name</legend>
+                        <input class="input-field" type="text" name="name" id="client-name" onfocus="Borderon('field1')"
+                            onblur="Borderoff('field1')" required>
                     </fieldset>
-                    <fieldset class="input-cover" id = "field2">
-                        <legend class = "legend-title">E-Mail</legend>
-                        <input class ="input-field" type="email" name="email" id="client-mail" onfocus="Borderon('field2')" onblur="Borderoff('field2')">
+                    <fieldset class="input-cover" id="field2">
+                        <legend class="legend-title">E-Mail</legend>
+                        <input class="input-field" type="email" name="email" id="client-mail"
+                            onfocus="Borderon('field2')" onblur="Borderoff('field2')">
                     </fieldset>
-                    <fieldset class="input-cover" id = "field3">
-                        <legend class = "legend-title">Contact Info</legend>
-                        <input class ="input-field" type="tel" name="contact" id="client-contact" pattern="[+1-9]{10,13}" onfocus="Borderon('field3')" onblur="Borderoff('field3')" required>
+                    <fieldset class="input-cover" id="field3">
+                        <legend class="legend-title">Contact Info</legend>
+                        <input class="input-field" type="tel" name="contact" id="client-contact" pattern="[+1-9]{10,13}"
+                            onfocus="Borderon('field3')" onblur="Borderoff('field3')" required>
                     </fieldset>
                     <center><button class="button-green buy-bt" type="button">BUY</button></center>
                 </form>
             </fieldset>
+            <div>
+                <div class="topic-text" style="margin-bottom: 0px; margin-top: 40px;">Details</div>
+                <div class="buy-details">
+                    <ul class="list-col-1">
+                        <li class="list-item list-key">Price</li>
+                        <li class="list-item list-key">Property ID:</li>
+                        <li class="list-item list-key">Location:</li>
+                        <li class="list-item list-key">Area:</li>
+                        <li class="list-item list-key">Beds:</li>
+                        <li class="list-item list-key">Baths:</li>
+                        <li class="list-item list-key">Staus:</li>
+                        <li class="list-item list-key">Rating:</li>
+                    </ul>
+                    <ul class="list-col-2">
+                        <li class="list-item list-val">$10000</li>
+                        <li class="list-item list-val">1134</li>
+                        <li class="list-item list-val">New Delhi</li>
+                        <li class="list-item list-val">300m^2</li>
+                        <li class="list-item list-val">4</li>
+                        <li class="list-item list-val">2</li>
+                        <li class="list-item list-val">Sale</li>
+                        <li class="list-item list-val">4.8</li>
+                    </ul>
+                </div>
+            </div>
         </div>
 </body>
 

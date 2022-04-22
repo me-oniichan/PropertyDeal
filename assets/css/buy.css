@@ -34,16 +34,20 @@
 .amenities {
     display: grid;
     grid-template-columns: 33% 33% 33%;
+    list-style-type: square;
 }
 
 .list-item {
-    list-style: square;
-    text-align: left;
-    margin: 9px;
-    color: rgb(90, 90, 90);
+    margin: 10px;
+    color: #5a5a5a;
     font-size: 18px;
-    font-family: "Poppins", sans-serif;
 }
+
+.list-amnities{
+    font-family: "Poppins", sans-serif;
+    text-align: left;
+}
+
 .price-tag{
     color: #00d300;
     font: 30px "josefin sans";
@@ -91,4 +95,24 @@
     padding: 12px 20px 10px 20px;
     font-size: 21px;
     color: black;
+}
+
+.buy-details{
+    display: grid;
+    grid-template-columns: 30% 30%;
+    font-size: 20px;
+}
+
+.list-key{
+    color: black;
+    font-family: "josefin sans";
+    list-style: none;
+    margin: 15px;
+}
+
+.list-val{
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+    text-align: right;
+    margin: 13px;
 }
