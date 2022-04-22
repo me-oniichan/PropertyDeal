@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/buy.css">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Poppins:wght@500;900&display=swap">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Poppins:wght@500;900&display=swap">
 </head>
 <script src="/assets/js/script.js"></script>
 
@@ -41,16 +42,13 @@
         <div class="buy-container">
             <div class="box-fix">
                 <div></div>
-                <div class="box-bottom">
-                    <span class="prop-name">Price : $10000</span>
-                    <button class="button-green buy-bt">Buy</button>
-                </div>
             </div>
 
             <div class="about-container">
                 <div class="topic-text" style="margin-bottom: 25px; margin-top: 0px;">About</div>
                 <div class="about-desc font">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab omnis repellat asperiores iure cum commodi,
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab omnis repellat asperiores iure cum
+                    commodi,
                     officiis corrupti delectus expedita voluptatum in non distinctio eaque optio debitis amet libero
                     reprehenderit voluptas fuga ipsam! Nam maxime veritatis facilis inventore sed reiciendis aspernatur
                     praesentium iure ratione qui sunt, fugit repudiandae provident atque cumque a minima laboriosam.
@@ -71,7 +69,26 @@
                 </ul>
             </div>
         </div>
-
+        <div class="buy-container">
+            <fieldset class="form-grp">
+                <legend class="price-tag">$10000</legend>
+                <form action="post" method="get" class =  "buy-form">
+                    <fieldset class="input-cover" id = "field1">
+                        <legend class = "legend-title">Full Name</legend>
+                        <input class ="input-field" type="text" name="name" id="client-name" onfocus="Borderon('field1')" onblur="Borderoff('field1')" required>
+                    </fieldset>
+                    <fieldset class="input-cover" id = "field2">
+                        <legend class = "legend-title">E-Mail</legend>
+                        <input class ="input-field" type="email" name="email" id="client-mail" onfocus="Borderon('field2')" onblur="Borderoff('field2')">
+                    </fieldset>
+                    <fieldset class="input-cover" id = "field3">
+                        <legend class = "legend-title">Contact Info</legend>
+                        <input class ="input-field" type="tel" name="contact" id="client-contact" pattern="[+1-9]{10,13}" onfocus="Borderon('field3')" onblur="Borderoff('field3')" required>
+                    </fieldset>
+                    <center><button class="button-green buy-bt" type="button">BUY</button></center>
+                </form>
+            </fieldset>
+        </div>
 </body>
 
 </html>
