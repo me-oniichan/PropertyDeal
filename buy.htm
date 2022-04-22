@@ -70,22 +70,24 @@
             </div>
         </div>
         <div class="buy-container">
-            <div class="price-tag">
-                <div class="prop-name">PRICE : $10000</div>
-                <form action="post" method="get">
-                    <fieldset>
-                        <legend>Full Name</legend>
-                        <input type="text" name="name" id="client-name" required>
+            <fieldset class="form-grp">
+                <legend class="price-tag">$10000</legend>
+                <form action="post" method="get" class =  "buy-form">
+                    <fieldset class="input-cover" id = "field1">
+                        <legend class = "legend-title">Full Name</legend>
+                        <input class ="input-field" type="text" name="name" id="client-name" onfocus="Borderon('field1')" onblur="Borderoff('field1')" required>
                     </fieldset>
-                    <fieldset>
-                        <input type="email" name="email" id="client-mail">
+                    <fieldset class="input-cover" id = "field2">
+                        <legend class = "legend-title">E-Mail</legend>
+                        <input class ="input-field" type="email" name="email" id="client-mail" onfocus="Borderon('field2')" onblur="Borderoff('field2')">
                     </fieldset>
-                    <fieldset>    
-                        <input type="tel" name="contact" id="client-contact" pattern="[+1-9]{10,13}" required>
+                    <fieldset class="input-cover" id = "field3">
+                        <legend class = "legend-title">Contact Info</legend>
+                        <input class ="input-field" type="tel" name="contact" id="client-contact" pattern="[+1-9]{10,13}" onfocus="Borderon('field3')" onblur="Borderoff('field3')" required>
                     </fieldset>
-                    <button class="buy-btn" type="button">BUY</button>
+                    <center><button class="button-green buy-bt" type="button">BUY</button></center>
                 </form>
-            </div>
+            </fieldset>
         </div>
 </body>
 

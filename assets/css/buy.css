@@ -1,10 +1,10 @@
-.buy-container{
+.buy-container {
     display: grid;
     grid-template-columns: 50% 50%;
     gap: 10px;
 }
 
-.box-fix{
+.box-fix {
     width: 500px;
     height: 500px;
     display: block;
@@ -15,7 +15,7 @@
     grid-template-rows: 90% 10%;
 }
 
-.box-bottom{
+.box-bottom {
     background-color: #14141499;
     display: grid;
     grid-template-columns: 50% 50%;
@@ -23,31 +23,72 @@
     padding: 0 20px;
 }
 
-.buy-bt{
-    margin : 5px 0px 10px auto;
-    padding: 7px 20px 7px 20px;
-    border-radius: 5px;
-    font-size: 21px;
-}
-
-.about-desc{
+.about-desc {
     font-size: 20px;
     color: #434343;
     line-height: 1.4;
-    font-family:  "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif;
     text-align: left;
 }
 
-.amenities{
+.amenities {
     display: grid;
     grid-template-columns: 33% 33% 33%;
 }
 
-.list-item{
+.list-item {
     list-style: square;
     text-align: left;
     margin: 9px;
     color: rgb(90, 90, 90);
     font-size: 18px;
-    font-family:  "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif;
+}
+.price-tag{
+    color: #00d300;
+    font: 30px "josefin sans";
+    background-color: white;
+}
+
+.form-grp {
+    width: 500px;
+    box-sizing: border-box;
+    margin: 0px 0px 20px 0px;
+    padding: 25px 10px 20px 20px;
+    margin-top: 35px;
+    margin-right: 105px;
+    box-shadow: 0 0 8px 1px #05ce05;
+}
+
+.input-cover {
+    border: 3px solid transparent;
+    margin: 10px 0px;
+    margin-bottom: 15px;
+    padding: 0 0 0 25px;
+    box-shadow: none;
+}
+
+.input-field {
+    margin: 10px 0px;
+    color: grey;
+    padding: 0 5px 5px 5px;
+    width: 90%;
+    font: 20px 'poppins', sans-serif;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #949494;
+    background-color: transparent;
+}
+
+.legend-title {
+    font: 20px "poppins", sans-serif;
+    font-weight: 600;
+    color: #434343;
+}
+
+.buy-bt {
+    margin: auto;
+    padding: 12px 20px 10px 20px;
+    font-size: 21px;
+    color: black;
 }
