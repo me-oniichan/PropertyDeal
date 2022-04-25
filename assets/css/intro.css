@@ -15,10 +15,9 @@ header{
 }
 
 .intro>.container{
-    display: inline-grid;
-    grid-template-rows: 2;
+    display: grid;
     margin: auto;
-    gap: 5rem;
+    gap: 60px;
     width: 70vw;
 }
 
@@ -53,7 +52,7 @@ header{
 
 .form-child {
     border: none;
-    padding: 1em;
+    padding: 20px;
     background-color: #f7f7f7;
 }
 
@@ -62,18 +61,20 @@ header{
 }
 
 .search-form{
-    box-shadow: 4px 4px 5px 1px #00b400b4;
+    box-shadow: 4px 4px 5px 0px #41ff41;
 }
 
 #location{
-    padding-left: 2em;  
+    padding-left: 20px;  
     border-right: 1px outset #8080803d;
     box-sizing: border-box;
 }
 
-div.form-child{
+.form-btn{
     padding: 0px;
     padding-left: 1em;
+    background-color: #f7f7f7;
+    display: inherit;
 }
 
 .sub-button{
@@ -89,9 +90,3 @@ div.form-child{
     box-shadow:  0 0 8px 3px #00b400b4;
     border: 1px solid whitesmoke;
 }
-
-.btcover{
-    border-radius: 0 50px 50px 0;
-    padding-right: 2em;
-}
-
