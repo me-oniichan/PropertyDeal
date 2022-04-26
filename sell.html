@@ -38,15 +38,58 @@
     </nav>
         <!-- Navigationbar finish -->
         <div class="margin-7">
-            <div class="buy-container">
+            <div class="buy-container" style="margin-top: 100px;">
                 <div class="cont-1">
                     <img id="sell-img" src="assets/img/empty-img.png" alt="" class="sell-img">
-                    <div class="btn-cont"><label for="sell-bt" class="button-green sell-bt">Choose Image</label><input
+                    <label for="sell-bt" class="button-green sell-bt">Choose Image</label><input
                             id="sell-bt" name="sell-bt" type="file" value="Select" accept="image/*" style="opacity: 0;">
-                    </div>
                 </div>
                 <div class="cont-2">
-
+                    <form action="" method="post" class="sell-from">
+                        <div class="sell-from-child">
+                            <label for="name" class="sell-from-label">Name</label>
+                            <input type="text" id="name" class="sell-from-input:text">
+                        </div>
+                        <div class="sell-from-child">
+                            <label for="name" class="sell-from-label">Location</label>
+                            <input type="text" id="location" class="sell-from-input">
+                        </div>
+                        <div class="sell-from-child">
+                            <label for="name" class="sell-from-label">Price</label>
+                            <input type="text" id="price" class="sell-from-input">
+                        </div>
+                        <div class="sell-from-child">
+                            <label for="name" class="sell-from-label">Area</label>
+                            <input type="text" id="area" class="sell-from-input">
+                        </div>
+                        <div class="sell-from-child">
+                            <label for="name" class="sell-from-label">Rooms</label>
+                            <input type="text" id="rooms" class="sell-from-input">
+                        </div>
+                        <div class="sell-from-child">
+                            <label for="name" class="sell-from-label">Price Negotiable</label>
+                            <label for="yes">Yes</label>
+                            <input value = "yes" type="radio" id="rooms" class="sell-from-radio">
+                            <label for="no">No</label>
+                            <input value = "no" type="radio" id="rooms" class="sell-from-radio">
+                        </div>
+                        <div class="sell-from-child">
+                            <label for="amnities">
+                                Amnities
+                            </label>
+                            <input type="text" id="amenities" class="sell-from-input">
+                            <div class="amen-cont">
+                                <span class="amen-tag">Kitchen</span>
+                            </div>
+                        </div>
+                        <div class="sell-from-child">
+                            <label for="" class="">additional-deatils</label>
+                            <table class="add-detail">
+                                
+                            </table>
+                        </div>
+                        <button type="submit">Submit</button>
+                    </form>
                 </div>
             </div>
         </div>
