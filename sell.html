@@ -32,69 +32,71 @@
             <li class="nav-item">SELL</li>
             <li class="nav" id="Signin" style="margin: auto;"><a href="signin.htm"><button class="signin-bt">Sign
                         In</button></a></li>
-            <li class="nav" id="search" style="margin: auto;"><a href="sell.html"><button class="search-img"><img src="assets/img/find.png"
-                    alt="..." width="25px"></button></a></li>
+            <li class="nav" id="search" style="margin: auto;"><a href="sell.html"><button class="search-img"><img
+                            src="assets/img/find.png" alt="..." width="25px"></button></a></li>
         </ul>
     </nav>
-        <!-- Navigationbar finish -->
-        <div class="margin-7">
-            <div class="buy-container" style="margin-top: 100px;">
-                <div class="cont-1">
-                    <img id="sell-img" src="assets/img/empty-img.png" alt="" class="sell-img">
-                    <label for="sell-bt" class="button-green sell-bt">Choose Image</label><input
-                            id="sell-bt" name="sell-bt" type="file" value="Select" accept="image/*" style="opacity: 0;">
-                </div>
-                <div class="cont-2">
-                    <form action="" method="post" class="sell-form">
-                        <div class="sell-form-child">
-                            <label for="name" class="sell-form-label">Name</label>
-                            <input type="text" id="name" class="sell-form-input:text">
-                        </div>
-                        <div class="sell-form-child">
-                            <label for="name" class="sell-form-label">Location</label>
-                            <input type="text" id="location" class="sell-form-input">
-                        </div>
-                        <div class="sell-form-child">
-                            <label for="name" class="sell-form-label">Price</label>
-                            <input type="text" id="price" class="sell-form-input">
-                        </div>
-                        <div class="sell-form-child">
-                            <label for="name" class="sell-form-label">Area</label>
-                            <input type="text" id="area" class="sell-form-input">
-                        </div>
-                        <div class="sell-form-child">
-                            <label for="name" class="sell-form-label">Rooms</label>
-                            <input type="text" id="rooms" class="sell-form-input">
-                        </div>
-                        <div class="sell-form-child">
-                            <label for="name" class="sell-form-label">Price Negotiable</label>
+    <!-- Navigationbar finish -->
+    <div class="margin-7">
+        <div class="buy-container" style="margin-top: 100px;">
+            <div class="cont-1">
+                <img id="sell-img" src="assets/img/empty-img.png" alt="" class="sell-img">
+                <label for="sell-bt" class="button-green sell-bt">Choose Image</label><input id="sell-bt" name="sell-bt"
+                    type="file" value="Select" accept="image/*" style="opacity: 0;">
+            </div>
+            <div class="cont-2">
+                <form action="" method="post" class="sell-form">
+                    <div class="sell-form-child">
+                        <span class="sell-form-label">Name</span>
+                        <input type="text" id="name" class="sell-form-input:text">
+                    </div>
+                    <div class="sell-form-child">
+                        <span class="sell-form-label">Location</span>
+                        <input type="text" id="location" class="sell-form-input">
+                    </div>
+                    <div class="sell-form-child">
+                        <span class="sell-form-label">Price</span>
+                        <input type="text" id="price" class="sell-form-input">
+                    </div>
+                    <div class="sell-form-child">
+                        <span class="sell-form-label">Area</span>
+                        <input type="text" id="area" class="sell-form-input">
+                    </div>
+                    <div class="sell-form-child">
+                        <span class="sell-form-label">Rooms</span>
+                        <input type="text" id="rooms" class="sell-form-input">
+                    </div>
+                    <div class="sell-form-child">
+                        <span class="sell-form-label">Price Negotiable</span>
+                        <span>
                             <label for="yes">Yes</label>
-                            <input value = "yes" type="radio" id="rooms" class="sell-form-radio">
+                            <input value="yes" type="radio" id="rooms" class="sell-form-radio">
                             <label for="no">No</label>
-                            <input value = "no" type="radio" id="rooms" class="sell-form-radio">
+                            <input value="no" type="radio" id="rooms" class="sell-form-radio">
+                        </span>
+                    </div>
+                    <div class="sell-form-child">
+                        <label span>
+                            Amnities
+                        </label>
+                        <input type="text" id="amenities" class="sell-form-input">
+                        <div class="amen-cont">
+                            <span class="amen-tag">Kitchen</span>
                         </div>
-                        <div class="sell-form-child">
-                            <label for="amnities">
-                                Amnities
-                            </label>
-                            <input type="text" id="amenities" class="sell-form-input">
-                            <div class="amen-cont">
-                                <span class="amen-tag">Kitchen</span>
-                            </div>
-                        </div>
-                        <div class="sell-form-child">
-                            <label for="" class="">additional-deatils</label>
-                            <table class="add-detail">
-
-                            </table>
-                        </div>
-                        <button type="submit">Submit</button>
-                    </form>
-                </div>
+                    </div>
+                    <div class="sell-form-child">
+                        <span class="">additional-deatils</span>
+                        <table class="add-detail">
+                            
+                        </table>
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
             </div>
         </div>
+    </div>
 
-        <script src="assets/js/script.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
