@@ -14,15 +14,14 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Poppins:wght@500;900&display=swap">
 </head>
-<script src="/assets/js/script.js"></script>
 
 <body style="overflow-x: hidden;">
 
     <!--Nvaigation Bar HTML structure-->
+    <!--Nvaigation Bar HTML structure-->
     <nav class="navbar">
         <img src="assets/img/gonii-nav.png" alt="" class="logo">
         <!--logo Image-->
-        <div style=></div>
         <ul class="menu">
 
             <!--Navigation Bar menu-->
@@ -31,26 +30,28 @@
             <li class="nav-item">EXPLORE</li>
             <li class="nav-item" onclick="openBuy()">BUY</li>
             <li class="nav-item">SELL</li>
-            <li class="" id="Signin" style="margin: auto;"><a href="signin.htm"><button class="signin-bt">Sign
+            <li class="nav" id="Signin" style="margin: auto;"><a href="signin.htm"><button class="signin-bt">Sign
                         In</button></a></li>
-            <li class="" id="search" style="margin: auto; padding-right: 20px;"><img src="assets/img/find.png" alt=""
-                    class="search-img" width="40px"></li>
+            <li class="nav" id="search" style="margin: auto;"><a href="sell.html"><button class="search-img"><img src="assets/img/find.png"
+                    alt="..." width="25px"></button></a></li>
         </ul>
     </nav>
-    <!-- Navigationbar finish -->
-    <div class="margin-7">
-        <div class="buy-container">
-            <div class="cont-1">
-                <img id = "sell-img" src="assets/img/empty-img.png" alt="" class="sell-img">
-                <div class="btn-cont"><label for="sell-bt" class="button-green sell-bt">Choose Image</label><input id="sell-bt" name="sell-bt" type="file" value="Select" accept="image/*" style="opacity: 0;">
+        <!-- Navigationbar finish -->
+        <div class="margin-7">
+            <div class="buy-container">
+                <div class="cont-1">
+                    <img id="sell-img" src="assets/img/empty-img.png" alt="" class="sell-img">
+                    <div class="btn-cont"><label for="sell-bt" class="button-green sell-bt">Choose Image</label><input
+                            id="sell-bt" name="sell-bt" type="file" value="Select" accept="image/*" style="opacity: 0;">
+                    </div>
+                </div>
+                <div class="cont-2">
+
                 </div>
             </div>
-            <div class="cont-2">
-
-            </div>
         </div>
-    </div>
 
+        <script src="/assets/js/script.js"></script>
 </body>
 
 </html>
