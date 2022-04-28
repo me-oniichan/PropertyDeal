@@ -38,7 +38,7 @@
     </nav>
     <!-- Navigationbar finish -->
     <div class="margin-7">
-        <div class="buy-container" style="margin-top: 100px;">
+        <div class="buy-container" style="justify-items: flex-end; margin-top: 110px;">
             <div class="cont-1">
                 <img id="sell-img" src="assets/img/empty-img.png" alt="" class="sell-img">
                 <label for="sell-bt" class="button-green sell-bt">Choose Image</label><input id="sell-bt" name="sell-bt"
@@ -48,11 +48,11 @@
                 <form action="" method="post" class="sell-form">
                     <div class="sell-form-child">
                         <span class="sell-form-label">Name</span>
-                        <input type="text" id="name" class="sell-form-input:text">
+                        <input type="text" id="name" class="sell-form-input">
                     </div>
                     <div class="sell-form-child">
                         <span class="sell-form-label">Location</span>
-                        <input type="text" id="location" class="sell-form-input">
+                        <input type="address" id="location" class="sell-form-input">
                     </div>
                     <div class="sell-form-child">
                         <span class="sell-form-label">Price</span>
@@ -69,25 +69,27 @@
                     <div class="sell-form-child">
                         <span class="sell-form-label">Price Negotiable</span>
                         <span>
-                            <label for="yes">Yes</label>
-                            <input value="yes" type="radio" id="rooms" class="sell-form-radio">
-                            <label for="no">No</label>
-                            <input value="no" type="radio" id="rooms" class="sell-form-radio">
+                                <label id="sel-1" for="yes" class="label-unselect">Yes</label>
+                                <input id="yes" value="yes" type="radio" name="nego" class="sell-form-radio" onclick="setradio('yes')">
+                                <label id = "sel-2" for="no" class="label-unselect">No</label>
+                                <input id="no" value="no" type="radio" name="nego" class="sell-form-radio" onclick="setradio('no')">
                         </span>
                     </div>
                     <div class="sell-form-child">
-                        <label span>
+                        <span span>
                             Amnities
-                        </label>
-                        <input type="text" id="amenities" class="sell-form-input">
-                        <div class="amen-cont">
-                            <span class="amen-tag">Kitchen</span>
-                        </div>
+                        </span>
+                        <span>
+                            <input type="text" id="amenities" class="sell-form-input">
+                            <div class="amen-cont">
+                                <span class="amen-tag">Kitchen</span>
+                            </div>
+                        </span>
                     </div>
                     <div class="sell-form-child">
                         <span class="">additional-deatils</span>
                         <table class="add-detail">
-                            
+
                         </table>
                     </div>
                     <button type="submit">Submit</button>
@@ -97,6 +99,7 @@
     </div>
 
     <script src="assets/js/script.js"></script>
+    <script src="assets/js/sell.js"></script>
 </body>
 
 </html>
