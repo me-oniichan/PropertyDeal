@@ -6,7 +6,8 @@ body{
 
 .page-sep{
     display: grid;
-    background-image: linear-gradient(to top, #11998e, #38ef7d); 
+    /* background-image: linear-gradient(to top, #11998e, #38ef7d);  */
+    background: linear-gradient(to right, #0cebeb, #20e3b2, #29ffc6); 
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -22,9 +23,11 @@ form{
     display: grid;
     margin: auto;
     padding: 50px 50px 30px;
-    background-color: #4a4a4a;
-    border-radius: 7px;
+    background-color: hsl(0, 0%, 96%,0.5); 
+    box-shadow: 0px 15px 100px 1px #111;   
+    border-radius: 17px;
 }
+
 
 .row-4{
     grid-template-rows: 1.5fr repeat(4, 1fr);
@@ -40,8 +43,11 @@ form{
 
 .logo{
     width: 160px;
+    height: 150px;
     margin: auto;
-    padding: 20px;
+    border: 5px solid white;
+    border-radius: 120px;
+    background-color: hsl(0, 6%, 66%,0.4);
 }
 
 .icon{
@@ -71,7 +77,7 @@ form{
 }
 
 input::placeholder{
-    color: white;
+    color: hsl(0, 0%, 0%,0.4);
 }
 
 input:focus{
@@ -104,5 +110,6 @@ input:focus{
 .foot:hover{
     color: white;
 }
+
 
     
