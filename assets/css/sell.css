@@ -1,3 +1,10 @@
+.col-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
 .sell-img{
     width: 400px;
     height: 400px;
@@ -11,19 +18,76 @@
     width: 400px;
     height: 50px;
     float: left;
+    border-width: 3px;
     box-sizing: border-box;
 }
 
 .sell-form{
     display: grid;
     grid-auto-flow: row;
+    font: 1.1em  sans-serif;
 }
 
 .sell-form-child{
-    font: 1em  sans-serif;
+    font: 1.1em  sans-serif;
     font-weight: bold;
-    margin: 7px;  
+    margin: 10px;  
     display: grid;
-    grid-template-columns: 40% 60%;
-    
+    grid-template-columns: 30% 70%;  
+}
+
+.sell-form-label{
+    margin: auto 0px;
+}
+
+.sell-form-input{
+    padding: 5px;
+    border: 2px solid #8e8e8e;
+    border-radius: 3px;
+    outline: none;
+    font-size: 1.1em;
+    background-color: #f9f9f9;
+}
+
+.sell-form-input:hover{
+    border-color: #00c853c6;
+    background-color: hsl(115, 100%, 98%);
+}
+
+.sell-form-input:focus{
+    border-color: #00c853c6;
+    background-color: hsl(115, 100%, 98%);
+}
+
+.sell-form-radio{
+    display: none;
+}
+
+.label-unselect{
+    margin: 5px;
+    border: 1px solid #4f4f4f;
+    border-radius: 3px;
+    padding: 8px;
+    font: 1em 'josefin sans';
+    font-weight: lighter;
+    background: #f8f8f8;
+    cursor: pointer;
+}
+
+.label-unselect:hover{
+    background: #d4fedd;
+    border-color: #00f40c;
+}
+
+.label-select{
+    margin: 5px;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    padding: 8px;
+    font: 1em 'josefin sans';
+    font-weight: lighter;
+    background: #06e83b;
+    box-shadow:  0 0 5px 0px #0bff17;
+    cursor: pointer;
 }
