@@ -13,7 +13,8 @@ function setradio(x) {
     }
 }
 
-document.getElementById("amen-add").onclick = () => {
+//Funtion to make a list
+let addlist = document.getElementById("amen-add").onclick = () => {
     let val = document.getElementById("amenities").value;
     if(!val) return;
     let cont = document.getElementById("values");
@@ -31,4 +32,8 @@ document.getElementById("amen-add").onclick = () => {
 </span>`
     cont.innerHTML = html;
     document.getElementById("amenities").value = "";
+}
+
+document.getElementById("amenities").onkeydown = (event) =>{
+    return event.key === "Enter"? addlist():0;
 }
