@@ -1,0 +1,143 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.main{
+    display: grid;
+    height: auto;
+    grid-row-gap: 20vh;
+}
+
+.mainBox{
+    transform: skewY(-8deg);
+    margin-top: -150px;
+    height: 700px;
+    text-align: center;
+ 
+}
+.straight{
+    transform: skewY(8deg);
+}
+#fImage1{
+    position: relative;
+    background-image: url('../img/house1.jpg');
+    background-repeat: no-repeat;
+    background-size: 1600px 900px;
+}
+#fImage1::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: hsl(0, 0%, 0%,0.6);
+  
+   
+}
+#fImage1::after{
+    content: "";
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    right: 30%;
+    bottom: 0%;
+    background-image: url('../img/gonii-main.png');
+    background-repeat: no-repeat;
+    transform: skewY(8deg);
+
+}
+#aboutUs{
+    height: 670px;
+}
+
+
+#ourT{
+    height: 750px;
+    background-color: lightgrey;
+}
+
+.ourTgrid{
+    display: grid;
+    grid-template-columns: 250px 250px;
+    grid-column-gap: 3rem;
+    justify-content: center;
+    margin-top: 50px;
+}
+.ourTgridBox{
+    height: 30vh;
+}
+
+#pic1{
+
+    background-image: url('../img/n.jpeg');
+    background-size: cover;
+    border-radius: 120px;
+    border: 2px solid #47cf47;
+    box-shadow: 0 0 4px 3px green;
+}
+#pic2{
+    background-image: url('../img/p.jpeg');
+    background-size: cover;
+    border-radius: 120px;
+    border: 2px solid #47cf47;
+    box-shadow: 0 0 4px 3px green;
+}
+.info{
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 4px solid #47cf47;
+}
+
+#ourS{
+    color: white;
+    height: 700px;
+    background-size: cover;
+    position: relative;
+    background-image: url('../img/2.png');
+    background-repeat: no-repeat;
+}
+#ourS::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: hsl(0, 0%, 0%,0.8);
+}
+.stickers{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+
+    
+    column-gap: 1rem;
+}
+.stickersbox{
+    height: 110px;
+    width: 290px;
+}
+#pic3{
+    background-image: url('../img/pic3.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#pic4{
+    background-image: url('../img/pic4.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#pic5{
+    background-image: url('../img/pic5.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#pic6{
+    background-image: url('../img/pic6.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
