@@ -43,18 +43,19 @@
     border: 2px solid #8e8e8e;
     border-radius: 3px;
     outline: none;
-    font-size: 1.1em;
+    font: 0.9em 'poppins', sans-serif;
+    color: #727272;
     background-color: #f9f9f9;
 }
 
 .sell-form-input:hover{
     border-color: #00c853c6;
-    background-color: hsl(115, 100%, 98%);
+    background-color: #f6fff5;
 }
 
 .sell-form-input:focus{
     border-color: #00c853c6;
-    background-color: hsl(115, 100%, 98%);
+    background-color: #f6fff5;
 }
 
 .sell-form-radio{
@@ -132,4 +133,10 @@
     font-family: 'poppins', monospace,sans-serif;
     color: white;
     background-color: #3d3d3d;
+}
+
+#prop-desc{
+    margin-bottom: 50px;
+    font: 1.2em 'poppins', sans-serif;
+    color: #3d3d3d;
 }

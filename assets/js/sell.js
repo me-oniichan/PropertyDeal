@@ -42,3 +42,4 @@ function delData(id){
     let elem = document.getElementById(id);
     elem.remove();
 }
+
