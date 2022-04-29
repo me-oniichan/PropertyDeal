@@ -23,7 +23,7 @@ body{
 }
 #fImage1{
     position: relative;
-    background-image: url('house1.jpg');
+    background-image: url('../img/house1.jpg');
     background-repeat: no-repeat;
     background-size: 1600px 900px;
 }
@@ -45,7 +45,7 @@ body{
     left: 35%;
     right: 30%;
     bottom: 0%;
-    background-image: url('gonii-main.png');
+    background-image: url('../img/gonii-main.png');
     background-repeat: no-repeat;
     transform: skewY(8deg);
 
@@ -73,14 +73,14 @@ body{
 
 #pic1{
 
-    background-image: url('n.jpeg');
+    background-image: url('../img/n.jpeg');
     background-size: cover;
     border-radius: 120px;
     border: 2px solid #47cf47;
     box-shadow: 0 0 4px 3px green;
 }
 #pic2{
-    background-image: url('p.jpeg');
+    background-image: url('../img/p.jpeg');
     background-size: cover;
     border-radius: 120px;
     border: 2px solid #47cf47;
@@ -97,7 +97,7 @@ body{
     height: 700px;
     background-size: cover;
     position: relative;
-    background-image: url('2.png');
+    background-image: url('../img/2.png');
     background-repeat: no-repeat;
 }
 #ourS::before{
@@ -122,22 +122,22 @@ body{
     width: 290px;
 }
 #pic3{
-    background-image: url('pic3.jpg');
+    background-image: url('../img/pic3.jpg');
     background-repeat: no-repeat;
     background-size: contain;
 }
 #pic4{
-    background-image: url('pic4.png');
+    background-image: url('../img/pic4.png');
     background-repeat: no-repeat;
     background-size: contain;
 }
 #pic5{
-    background-image: url('pic5.png');
+    background-image: url('../img/pic5.png');
     background-repeat: no-repeat;
     background-size: contain;
 }
 #pic6{
-    background-image: url('pic6.jpg');
+    background-image: url('../img/pic6.jpg');
     background-repeat: no-repeat;
     background-size: contain;
 }
