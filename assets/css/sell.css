@@ -1,8 +1,14 @@
+.sell-container{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
 .cont-1 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-items: center;
+    margin: auto;
 }
 
 .sell-img{
@@ -17,7 +23,7 @@
     background: #3d3d3d;
     width: 400px;
     height: 50px;
-    float: left;
+    display: block;
     border-width: 3px;
     box-sizing: border-box;
 }
@@ -87,7 +93,46 @@
     padding: 8px;
     font: 1em 'josefin sans';
     font-weight: lighter;
-    background: #06e83b;
+    background: #03a729;
     box-shadow:  0 0 5px 0px #0bff17;
     cursor: pointer;
+}
+
+#amenities{
+    width: 100px;
+    font-size: 15px;
+    margin: 0px;
+    border-radius: 4px 0 0 4px;
+    border-right: none;
+}
+
+.amen-tag{
+    font: 18px 'poppins', sans-serif;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: #5b5b5b;
+}
+
+.cross{
+    background-color: #989898;
+    color: white;
+    border: none;
+    margin: 0%;
+    height: 25px;
+}
+
+#amen-add{
+    color: white;
+    background-color: #a5a5a5;
+    border: 2px solid #8e8e8e;
+    border-radius: 0 4px 4px 0;
+    margin: 0px;
+    border-left: none;
+    cursor: pointer;
+}
+
+#amen-add:hover{
+    background-color: #727272;
 }

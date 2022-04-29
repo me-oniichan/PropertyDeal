@@ -38,7 +38,7 @@
     </nav>
     <!-- Navigationbar finish -->
     <div class="margin-7">
-        <div class="buy-container" style="margin-top: 110px;">
+        <div class="sell-container" style="margin-top: 110px;">
             <div class="cont-1">
                 <img id="sell-img" src="assets/img/empty-img.png" alt="" class="sell-img">
                 <label for="sell-bt" class="button-green sell-bt">Choose Image</label><input id="sell-bt" name="sell-bt"
@@ -69,10 +69,12 @@
                     <div class="sell-form-child">
                         <span class="sell-form-label">Price Negotiable</span>
                         <span>
-                                <label id="sel-1" for="yes" class="label-unselect">Yes</label>
-                                <input id="yes" value="yes" type="radio" name="nego" class="sell-form-radio" onclick="setradio('yes')">
-                                <label id = "sel-2" for="no" class="label-unselect">No</label>
-                                <input id="no" value="no" type="radio" name="nego" class="sell-form-radio" onclick="setradio('no')">
+                            <label id="sel-1" for="yes" class="label-unselect">Yes</label>
+                            <input id="yes" value="yes" type="radio" name="nego" class="sell-form-radio"
+                                onclick="setradio('yes')">
+                            <label id="sel-2" for="no" class="label-unselect">No</label>
+                            <input id="no" value="no" type="radio" name="nego" class="sell-form-radio"
+                                onclick="setradio('no')">
                         </span>
                     </div>
                     <div class="sell-form-child">
@@ -80,9 +82,15 @@
                             Amnities
                         </span>
                         <span>
-                            <input type="text" id="amenities-inp" class="sell-form-input">
                             <div class="amen-cont">
-                                <span class="amen-tag">Kitchen</span>
+                                <span>
+                                    <span class="amen-tag">Kitchen <button class="cross" type = "button">X</button></span>
+                                </span>
+                                <span style="display: inline-flex;">
+                                    <input type="text" id="amenities" class="sell-form-input">
+                                    <button id="amen-add" type="button">+</button>
+                                </span>
+
                             </div>
                         </span>
                     </div>
