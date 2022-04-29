@@ -3,14 +3,6 @@
     grid-template-columns: 40% 60%;
 }
 
-.cont-1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-items: center;
-    margin: auto;
-}
-
 .sell-img{
     width: 400px;
     height: 400px;
@@ -98,12 +90,18 @@
     cursor: pointer;
 }
 
-#amenities{
-    width: 100px;
+.amen-data{
+    width: 200px;
     font-size: 15px;
     margin: 0px;
     border-radius: 4px 0 0 4px;
     border-right: none;
+}
+
+.amen-inp{
+    display: inline-flex;
+    margin-bottom: 10px;
+    margin-right: 10px;
 }
 
 .amen-tag{
@@ -115,15 +113,7 @@
     background-color: #5b5b5b;
 }
 
-.cross{
-    background-color: #989898;
-    color: white;
-    border: none;
-    margin: 0%;
-    height: 25px;
-}
-
-#amen-add{
+.amen-bt{
     color: white;
     background-color: #a5a5a5;
     border: 2px solid #8e8e8e;
@@ -133,6 +123,13 @@
     cursor: pointer;
 }
 
-#amen-add:hover{
+.amen-bt:hover{
     background-color: #727272;
+}
+
+.amen-vals{
+    padding: 3px;
+    font-family: 'poppins', monospace,sans-serif;
+    color: white;
+    background-color: #3d3d3d;
 }
