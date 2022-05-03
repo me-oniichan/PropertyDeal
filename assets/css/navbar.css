@@ -78,13 +78,16 @@ a{
 .search-img{
     margin: auto;
     box-sizing: border-box;
-    background-color: #a9ff0a;
-    padding: 3px;
+    background-color: #f84545;
+    padding: 5px;
     border-radius: 4px;
     border-color: transparent;
     cursor: pointer;
+    box-sizing: border-box;
+    height: 36px;
+    width: 36px;
 }
 .search-img:hover{
     border: 1px solid white;
-    box-shadow:  0 0 5px 2px #bfff94;
+    box-shadow:  0 0 5px 2px #ff5555;
 }
