@@ -5,7 +5,7 @@ body{
     display: grid;
     height: 100%;
     margin: 0;
-    background: linear-gradient(to right, #0cebeb, #20e3b2, #29ffc6);
+    background: linear-gradient(to right, #00634a, #3ab165, #007b5c);
 }
 
 .page-sep{
@@ -29,25 +29,11 @@ form{
     margin: auto;
     display: grid;
     padding: 50px 50px 30px;
-    background-color: #000000e6;
+    background-color: #353535;
     border-radius: 30px;
     height: 80vh;
-    box-shadow: 0 0 20px 0 white;
+    box-shadow: 0 0 20px 0 #c2ff7c;
 }
-/* form::before{
-    content: "";
-    position: absolute;
-    top: 0;
-    width: 102%;
-    height: 102%;
-    left: -1%;
-    top: -1%;
-    background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59); 
-    z-index: -1;
-    border-radius: 30px;
-} */
-
-
 
 .row-4{
     grid-template-rows: 1.5fr repeat(4, 1fr);
@@ -63,9 +49,8 @@ form{
 
 .lb{
     margin: auto;
-    /* background-color: black; */
     border-radius: 10px;
-    box-shadow: 0 0 10px 0 #000000;
+    box-shadow: 1px 1px 5px 0 #0f0f0f;
 }
 #logo{
     width: 300px;
