@@ -15,33 +15,28 @@
 <body class="signin">
     <div class="page-sep">
         <div class="container">
-            <!-- <div id="formDiv"> -->
-                <form action="" method="post" class="row-4">
-                    <div class="logoDiv"> <a href="index.html"> <img src="assets\img\gonii-main2.jpg" alt="" id="logo">
-                            <center></center>
-                        </a></div>
-                    <div class="form-child" id="name-data" style="display: none;">
-                        <input class="credential sub" type="text" name="username" placeholder="First Name">
-                        <input class="credential sub" type="text" name="username" placeholder="Last Name">
-                    </div>
-                    <div class="form-child">
-                        <img src="assets/img/user.png" alt="" class="icon" style="filter: invert(100%);">
-                        <input class="credential" type="text" name="username" placeholder="username" required>
-                    </div>
-                    <div class="form-child">
-                        <img src="assets/img/lock.png" alt="" class="icon" style="filter: invert(100%);">
-                        <input class="credential" type="password" name="password" placeholder="password">
-                    </div>
-                    <div class="form-child">
-                        <input class="submit" type="submit" value="Login">
-                    </div>
-                    <div style="margin: auto; color: black;">
-                        <span class="foot">Forgot password?</span> &nbsp; | &nbsp; <span class="foot" id="signup"
-                            onclick="toogleName()">New user? Sign up</span>
-                    </div>
-                </form>
-            <!-- </div> -->
-
+            <form action="" method="post" class="row-4">
+                <a href="index.html"><center><img class="logo" src="assets/img/gonii-main.png" alt=""></center></a>
+                <div class="form-child" id="name-data" style="display: none;">
+                    <input class="credential sub" type="text" name="username" placeholder="First Name">
+                    <input class="credential sub" type="text" name="username" placeholder="Last Name">
+                </div>
+                <div class="form-child">
+                    <img src="assets/img/user.png" alt="" class="icon">
+                    <input class="credential" type="text" name="username" placeholder="username" required>
+                </div>
+                <div class="form-child">
+                    <img src="assets/img/lock.png" alt="" class="icon">
+                    <input class="credential" type="password" name="password" placeholder="password">
+                </div>
+                <div class="form-child">
+                    <input class="submit" type="submit" value="Login">
+                </div>
+                <div style="margin: auto; color: #dddddd;">
+                    <span class="foot">Forgot password?</span> &nbsp; | &nbsp; <span class="foot" id="signup"
+                        onclick="toogleName()">New user? Sign up</span>
+                </div>
+            </form>
         </div>
     </div>
 

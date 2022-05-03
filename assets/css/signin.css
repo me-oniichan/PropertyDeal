@@ -1,143 +1,106 @@
-
-    
-body{
+body {
     display: grid;
-    height: 100%;
     margin: 0;
-    background: linear-gradient(to right, #0cebeb, #20e3b2, #29ffc6);
+    background-image: linear-gradient(to top, #11998e, #38ef7d);
 }
 
-.page-sep{
+.page-sep {
     display: grid;
+    
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    margin-top: 40px;
-    height: auto
+    margin: auto 0 auto 0;
+    height: 100vh;
 }
 
-.container{
+.container {
     display: grid;
 }
 
-form{
-    position: relative;
-    top: 0;
-    left: 0;
-    bottom: 0;
+form {
+    display: grid;
     margin: auto;
-    display: grid;
     padding: 50px 50px 30px;
-    background-color: white;
-    border-radius: 30px;
-    height: 80vh;
-}
-form::before{
-    content: "";
-    position: absolute;
-    top: 0;
-    width: 102%;
-    height: 102%;
-    left: -1%;
-    top: -1%;
-    background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59); 
-    z-index: -1;
-    border-radius: 30px;
+    background-color: #4a4a4a;
+    border-radius: 7px;
 }
 
-
-
-.row-4{
+.row-4 {
     grid-template-rows: 1.5fr repeat(4, 1fr);
 }
 
-.row-5{
+.row-5 {
     grid-template-rows: 1.5fr repeat(5, 1fr);
 }
 
-.form-child{
+.form-child {
     margin: auto;
 }
 
-.logoDiv{
-    height: auto;
-    width: auto;
+.logo {
+    width: 160px;
     margin: auto;
-    border: 8px solid lightgray ;
-    border-radius: 50%;
+    padding: 20px;
+}
 
-}
-#logo{
-    height: 160px;
-    width: 190px;
-    border-radius: 50%;
-}
-.icon{
+.icon {
     width: 1.5em;
     position: absolute;
     padding: 10px 0 0 0;
 }
 
-.credential{
+.credential {
     font-family: 'poppins', sans-serif;
     font-size: 16px;
-    color: black;
+    color: #fff;
     line-height: 1.2;
     height: 45px;
-    width: 280px;
+    width: 300px;
     background: 0 0;
     padding: 0 0 0 35px;
     outline: none;
     border: none;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid whitesmoke;
 }
 
-.sub{
+.sub {
     width: 140px;
     padding-left: 5px;
     margin-right: 20px;
 }
 
-input::placeholder{
-    color: #00000099;
+input::placeholder {
+    color: white;
 }
 
-input:focus{
+input:focus {
     outline: none;
     border-width: 2px;
 }
 
-.submit{
-    background: lightgray;
+.submit {
+    background: #fefefe;
     border: none;
     padding: 0.8rem 2em 0.8rem 2em;
     border-radius: 2em;
     font: 16px 'poppins', sans-serif;
-    color: black;
+    color: #3e3e3e;
     cursor: pointer;
 }
 
-.submit:hover{
-
-    background-color: #47ec8b;
+.submit:hover {
+    background-image: linear-gradient(to bottom, #11998e, #38ef7d);
     color: white;
     border: 1px solid white;
 }
 
-.foot{
+.foot {
     margin: auto;
     font: 12px 'poppins', sans-serif;
     cursor: pointer;
 }
 
-.foot:hover{
-    color: green;
+.foot:hover {
+    color: white;
 }
-
-
-
-
-
-
-
-    
