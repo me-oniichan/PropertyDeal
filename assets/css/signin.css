@@ -1,13 +1,24 @@
-*{
+
+ *{
     font-family: 'poppins', sans-serif;
  }   
 body{
     display: grid;
     height: 100%;
     margin: 0;
-    background: linear-gradient(to right, #00634a, #3ab165, #007b5c);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: linear-gradient(to right, #11998e, #38ef7d);
 }
-
+body::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: hsl(216, 33%, 79%,0.2); 
+}
 .page-sep{
     display: grid;
     background-position: center center;
@@ -29,10 +40,20 @@ form{
     margin: auto;
     display: grid;
     padding: 50px 50px 30px;
-    background-color: #353535;
+    background-color: #252424e6;
     border-radius: 30px;
     height: 80vh;
-    box-shadow: 0 0 20px 0 #c2ff7c;
+    /* box-shadow: 0 0 20px 0 white; */
+    border: 2px solid white;
+    /* box-shadow: 0px 30px 10px -10px #111;   */
+    box-shadow: 0 30px 30px -5px #161212e6;
+}
+form::before{
+    content: "";
+    position: absolute;
+    height: 80vh;
+    width: 500px;
+    background-color: black;
 }
 
 .row-4{
@@ -49,8 +70,9 @@ form{
 
 .lb{
     margin: auto;
+    /* background-color: black; */
     border-radius: 10px;
-    box-shadow: 1px 1px 5px 0 #0f0f0f;
+    /* box-shadow: 0 0 10px 0 #000000; */
 }
 #logo{
     width: 300px;
@@ -163,6 +185,8 @@ input:focus{
 
 
 
+
+    
 
     
 
