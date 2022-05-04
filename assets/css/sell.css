@@ -1,3 +1,11 @@
+.background{
+    background-image: linear-gradient(to top, #ffffffba, #ffffffba), url(../img/sell-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 10px;
+}
+
 .sell-container{
     display: grid;
     grid-template-columns: 40% 60%;

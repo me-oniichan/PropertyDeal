@@ -32,79 +32,82 @@
             <li class="nav-item"><a href="sell.html">SELL</a></li>
             <li class="nav" id="Signin" style="margin: auto;"><a href="signin.html"><button class="signin-bt">Sign
                         In</button></a></li>
-            <li class="nav" id="search" style="margin: auto;"><button class="search-img"><img src="assets/img/find.png" alt="..." width="20px"></button></li>
+            <li class="nav" id="search" style="margin: auto;"><button class="search-img"><img src="assets/img/find.png"
+                        alt="..." width="20px"></button></li>
         </ul>
     </nav>
     <!-- Navigationbar finish -->
+    <div class="background">
     <div class="margin-7">
-        <div class="sell-container" style="margin-top: 110px;">
-            <div class="cont-1">
-                <img id="sell-img" src="assets/img/empty-img.png" alt="" class="sell-img">
-                <label for="sell-bt" class="button-green sell-bt">Choose Image</label><input id="sell-bt" name="sell-bt"
-                    type="file" value="Select" accept="image/*" style="opacity: 0;">
-            </div>
-            <div class="cont-2">
-                <form action="" method="post" class="sell-form">
-                    <div class="sell-form-child">
-                        <span class="sell-form-label">Name</span>
-                        <input type="text" id="name" class="sell-form-input">
-                    </div>
-                    <div class="sell-form-child">
-                        <span class="sell-form-label">Location</span>
-                        <input type="address" id="location" class="sell-form-input">
-                    </div>
-                    <div class="sell-form-child">
-                        <span class="sell-form-label">Price</span>
-                        <input type="text" id="price" class="sell-form-input">
-                    </div>
-                    <div class="sell-form-child">
-                        <span class="sell-form-label">Area</span>
-                        <input type="text" id="area" class="sell-form-input">
-                    </div>
-                    <div class="sell-form-child">
-                        <span class="sell-form-label">Rooms</span>
-                        <input type="text" id="rooms" class="sell-form-input">
-                    </div>
-                    <div class="sell-form-child">
-                        <span class="sell-form-label">Price Negotiable</span>
-                        <span>
-                            <label id="sel-1" for="yes" class="label-unselect">Yes</label>
-                            <input id="yes" value="yes" type="radio" name="nego" class="sell-form-radio"
-                                onclick="setradio('yes')">
-                            <label id="sel-2" for="no" class="label-unselect">No</label>
-                            <input id="no" value="no" type="radio" name="nego" class="sell-form-radio"
-                                onclick="setradio('no')">
-                        </span>
-                    </div>
-                    <div class="sell-form-child">
-                        <span span>
-                            Amnities
-                        </span>
+            <div class="sell-container" style="margin-top: 100px;">
+                <div class="cont-1">
+                    <img id="sell-img" src="assets/img/empty-img.png" alt="" class="sell-img">
+                    <label for="sell-bt" class="button-green sell-bt">Choose Image</label><input id="sell-bt"
+                        name="sell-bt" type="file" value="Select" accept="image/*" style="opacity: 0;">
+                </div>
+                <div class="cont-2">
+                    <form action="" method="post" class="sell-form">
+                        <div class="sell-form-child">
+                            <span class="sell-form-label">Name</span>
+                            <input type="text" id="name" class="sell-form-input">
+                        </div>
+                        <div class="sell-form-child">
+                            <span class="sell-form-label">Location</span>
+                            <input type="address" id="location" class="sell-form-input">
+                        </div>
+                        <div class="sell-form-child">
+                            <span class="sell-form-label">Price</span>
+                            <input type="text" id="price" class="sell-form-input">
+                        </div>
+                        <div class="sell-form-child">
+                            <span class="sell-form-label">Area</span>
+                            <input type="text" id="area" class="sell-form-input">
+                        </div>
+                        <div class="sell-form-child">
+                            <span class="sell-form-label">Rooms</span>
+                            <input type="text" id="rooms" class="sell-form-input">
+                        </div>
+                        <div class="sell-form-child">
+                            <span class="sell-form-label">Price Negotiable</span>
+                            <span>
+                                <label id="sel-1" for="yes" class="label-unselect">Yes</label>
+                                <input id="yes" value="yes" type="radio" name="nego" class="sell-form-radio"
+                                    onclick="setradio('yes')">
+                                <label id="sel-2" for="no" class="label-unselect">No</label>
+                                <input id="no" value="no" type="radio" name="nego" class="sell-form-radio"
+                                    onclick="setradio('no')">
+                            </span>
+                        </div>
+                        <div class="sell-form-child">
+                            <span span>
+                                Amnities
+                            </span>
 
-                        <div class="amen-cont">
-                            <div class="amen-inp">
-                                <input type="text" id="amenities" class="sell-form-input amen-data">
-                                <button id="amen-add" class="amen-bt" type="button">+</button>
-                            </div>
-                            <div id="values">
+                            <div class="amen-cont">
+                                <div class="amen-inp">
+                                    <input type="text" id="amenities" class="sell-form-input amen-data">
+                                    <button id="amen-add" class="amen-bt" type="button">+</button>
+                                </div>
+                                <div id="values">
+                                </div>
+
                             </div>
 
                         </div>
-
-                    </div>
-                    <div class="sell-form-child">
-                        <span></span>
-                        <button type="button" class="button-green sell-bt">Submit</button>
-                    </div>
-                </form>
+                        <div class="sell-form-child">
+                            <span></span>
+                            <button type="button" class="button-green sell-bt">Submit</button>
+                        </div>
+                    </form>
+                </div>
             </div>
-        </div>
-        <div>
-            <div class="topic-text" style="margin-top: 30px; margin-bottom: 25px;">About</div>
-            <center>
-                <textarea class="sell-form-input" name="prop-about" id="prop-desc" cols="120" rows="20"
-                    placeholder="write something about your porperty"></textarea>
-            </center>
+            <div>
+                <div class="topic-text" style="margin-top: 30px; margin-bottom: 25px;">About</div>
+                <center>
+                    <textarea class="sell-form-input" name="prop-about" id="prop-desc" cols="120" rows="20"
+                        placeholder="write something about your porperty"></textarea>
+                </center>
+            </div>
         </div>
     </div>
 
