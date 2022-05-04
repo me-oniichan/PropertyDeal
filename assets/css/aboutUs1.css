@@ -62,7 +62,7 @@ body{
 }
 
 .break-line{
-    width: 80%;
+    width: auto;
     height: 3px;
     background-color: #36e936;
 }
