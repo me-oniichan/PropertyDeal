@@ -6,50 +6,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Poppins:wght@500;900&display=swap">
     <link rel="stylesheet" href="assets/css/contactUs.css">
-    
+    <link rel="stylesheet" href="assets/css/navbar.css">
+
     <title>contact Us</title>
 </head>
 
 <body>
-    <div class="boxC">
-        <form action="" class="boxC1">
-            <h1>CONTACT US</h1>
-            <input type="text" name="" id="name" class="boxC2" placeholder="Enter Your Name" required>
-            <input type="email" name="" id="email" class="boxC2" placeholder="Enter Your Address" required>
-            <input type="tel" name="" id="phoneNo" class="boxC2" placeholder="Enter Your Phone Number" required>
-            <textarea name="" id="textarea" cols="50" rows="10" class="boxC2"
-                placeholder="Enter Your Mesaage"></textarea>
-            <input type="submit" id="submit" value="Submit">
-        </form>
-        <div class="boxR">
-            <div class="boxR1">
-                <img src="assets/img/phone-call.png" style="filter: invert(100)" alt="">
-                <h3 >Call Us</h3>
-            </div>
-            <p class="boxR2">123-1244-123, 12345678</p>
-            <div class="boxR1">
-                <img src="assets/img/email.png" style="filter: invert(100)"  alt="">
+    <nav class="navbar">
+        <img src="assets/img/gonii-nav.png" alt="" class="logo">
+        <!--logo Image-->
+        <ul class="menu">
 
-                <h3 >Email Us</h3>
+            <!--Navigation Bar menu-->
+            <li class="nav-item"><a href="index.html">HOME</a></li>
+            <li class="nav-item"><a href="about.html">ABOUT</a></li>
+            <li class="nav-item"><a href="contactUs.html">CONTACT</a></li>
+            <li class="nav-item"><a href="buy.html">BUY</a></li>
+            <li class="nav-item"><a href="sell.html">SELL</a></li>
+            <li class="nav" id="Signin" style="margin: auto;"><a href="signin.html"><button class="signin-bt">Sign
+                        In</button></a></li>
+            <li class="nav" id="search" style="margin: auto;"><button class="search-img"><img src="assets/img/find.png"
+                        alt="..." width="20px"></button></li>
+        </ul>
+    </nav>
+    <div class="contact">
+        <div class="boxC">
+            <form action="" class="boxC1">
+                <h1>CONTACT US</h1>
+                <input type="text" name="" id="name" class="boxC2" placeholder="Enter Your Name" required>
+                <input type="email" name="" id="email" class="boxC2" placeholder="Enter Your Address" required>
+                <input type="tel" name="" id="phoneNo" class="boxC2" placeholder="Enter Your Phone Number" required>
+                <textarea name="" id="textarea" cols="50" rows="10" class="boxC2"
+                    placeholder="Enter Your Mesaage"></textarea>
+                <input type="submit" id="submit" value="Submit">
+            </form>
+            <div class="boxR">
+                <div class="boxR1">
+                    <img class="contact-img" src="assets/img/phone-call.png" style="filter: invert(100)" alt="">
+                    <h3>Call Us</h3>
+                </div>
+                <p class="boxR2">123-1244-123, 12345678</p>
+                <div class="boxR1">
+                    <img class="contact-img" src="assets/img/email.png" style="filter: invert(100)" alt="">
+
+                    <h3>Email Us</h3>
+                </div>
+                <p class="boxR2">gonii@gmail.com</p>
+                <div class="boxR1">
+                    <img class="contact-img" src="assets/img/placeholder.png" style="filter: invert(100)" alt="">
+                    <h3>Location</h3>
+                </div>
+                <p class="boxR2">Lorem ipsum dolor sit.</p>
+                <div class="boxR1">
+                    <img class="contact-img" src="assets/img/minute.png" style="filter: invert(100)" alt="">
+                    <h3>Business</h3>
+                </div>
+                <p class="boxR2">Mon-Fri 10am-5pm, Sat-Sun 10am-12pm</p>
             </div>
-            <p class="boxR2">gonii@gmail.com</p>
-            <div class="boxR1">
-                <img src="assets/img/placeholder.png" style="filter: invert(100)" alt="">
-                <h3 >Location</h3>
+            <div class="boxIcons">
+                <a href=""><img class="contact-img" src="assets/img/g.png" alt=""></a>
+                <a href=""><img class="contact-img" src="assets/img/f.png" alt=""></a>
+                <a href=""><img class="contact-img" src="assets/img/i.png" alt=""></a>
+                <a href=""><img class="contact-img" src="assets/img/t.png" alt=""></a>
             </div>
-            <p class="boxR2">Lorem ipsum dolor sit.</p>
-            <div class="boxR1">
-                <img src="assests/img/minute.png" style="filter: invert(100)" alt="">
-                <h3>Business</h3>
-            </div>
-            <p class="boxR2">Mon-Fri 10am-5pm, Sat-Sun 10am-12pm</p>
-        </div>
-        <div class="boxIcons">
-            <a href=""><img src="assets/img/g.png" alt=""></a>
-            <a href=""><img src="assets/img/f.png" alt=""></a>
-            <a href=""><img src="assets/img/i.png" alt=""></a>
-            <a href=""><img src="assets/img/t.png" alt=""></a>
         </div>
     </div>
 </body>

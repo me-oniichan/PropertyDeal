@@ -1,16 +1,12 @@
-* {
-    font-family: 'Ubuntu', sans-serif;
-}
-
-body {
+.contact {
     padding: 0;
-    margin: 0;
     background-image: url('assests/img/backG.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
 }
 
-body::before {
+.contact::before {
     content: "";
     position: absolute;
     top: 0;
@@ -24,9 +20,9 @@ body::before {
 }
 
 .boxC {
-
+    margin-top: 50px;
     position: absolute;
-    left: 22%;
+    left: 23%;
     top: 5%;
     height: 75vh;
     width: 40vw;
@@ -66,7 +62,7 @@ body::before {
     background-color: #86f486;
 }
 
-img {
+.contact-img {
     height: 30px;
     width: 30px;
     padding: 12px;
@@ -83,6 +79,7 @@ img {
     color: white;
     box-shadow: 0 0 50px 0px white;
     padding: 10px;
+    padding-bottom: 0px;
 }
 
 .boxR1 {
