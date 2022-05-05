@@ -99,8 +99,11 @@
 
 .buy-details{
     display: grid;
-    grid-template-columns: 30% 30%;
+    grid-template-columns: 40% 35%;
     font-size: 20px;
+    margin: auto;
+    position: relative;
+    left: 20px;
 }
 
 .list-key{
