@@ -1,7 +1,8 @@
-
- *{
+*{
     font-family: 'poppins', sans-serif;
- }   
+    transition: all;
+    transition-duration: 0.3s;
+}   
 body{
     display: grid;
     height: 100%;
@@ -17,7 +18,7 @@ body::before{
     right: 0;
     left: 0;
     bottom: 0;
-    background-color: hsl(216, 33%, 79%,0.2); 
+    background-color: #b8c6db33; 
 }
 .page-sep{
     display: grid;
@@ -43,9 +44,8 @@ form{
     background-color: #252424e6;
     border-radius: 30px;
     height: 80vh;
-    /* box-shadow: 0 0 20px 0 white; */
+    width: 335px;
     border: 2px solid white;
-    /* box-shadow: 0px 30px 10px -10px #111;   */
     box-shadow: 0 30px 30px -5px #161212e6;
 }
 
@@ -64,12 +64,10 @@ form{
 
 .lb{
     margin: auto;
-    /* background-color: black; */
     border-radius: 10px;
-    /* box-shadow: 0 0 10px 0 #000000; */
 }
 #logo{
-    width: 300px;
+    width: 250px;
 }
 .icon{
     width: 1.5em;
@@ -95,6 +93,8 @@ form{
     width: 140px;
     padding-left: 5px;
     margin-right: 20px;
+    position: relative;
+    left: 5px;
 }
 
 input::placeholder{
@@ -170,10 +170,8 @@ input:focus{
     flex-direction: row;
     column-gap: none;
     text-decoration: none;
-    /* border: 1px solid red; */
 }
 .logoB1{
-    /* border: 1px solid red; */
     margin: 0px -5px
 }
 

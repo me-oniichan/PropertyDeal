@@ -95,7 +95,7 @@
 .imgs-cont:hover {
     box-shadow: 0 0 10px 1px #00ff5f;
     position: relative;
-    top: -1px;
+    top: -2px;
 }
 
 .imgs {
