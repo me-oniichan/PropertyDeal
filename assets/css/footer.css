@@ -1,0 +1,50 @@
+footer{
+    background-color: #696969;
+    height: 300px;
+}
+
+.top-level{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+    padding-top: 50px;
+}
+
+.segment{
+    display: grid;
+    grid-auto-flow: row;
+    gap: 10px;
+}
+
+.foot-text{
+    color: white;
+    font-family: 'Josefin sans';
+    text-align: center;
+}
+
+.head{
+    color: #13d85e;
+    font-size: 1.7em;
+}
+
+.value{
+    font-size: 2em;
+}
+
+.socials{
+    display: grid;
+    list-style-type: none;
+    width: 300px;
+    grid-template-columns: repeat(4, 1fr);
+    margin: auto;
+}
+
+.social-img{
+    width: 25px;
+    filter: invert(80%);
+}
+
+.social-img:hover{
+    filter: invert(100%);
+}
