@@ -1,5 +1,6 @@
 footer{
-    background-color: #696969;
+    margin-top: 100px;
+    background-color: #69696969;
     height: 300px;
 }
 
@@ -18,13 +19,13 @@ footer{
 }
 
 .foot-text{
-    color: white;
+    color: #515151;
     font-family: 'Josefin sans';
     text-align: center;
 }
 
 .head{
-    color: #13d85e;
+    color: #0ad95a;
     font-size: 1.7em;
 }
 
@@ -40,25 +41,33 @@ footer{
     margin: auto;
 }
 
+.social-icon{
+    display: flex;
+    margin: auto;
+    height: 27px;
+}
+
 .social-img{
     width: 24px;
-    filter: invert(80%);
+    filter: invert(25%);
+    margin: auto;
 }
 
 .social-img:hover{
     filter: invert(100%);
+    width: 26px;
 }
 
 .footer-break{
     margin-top: 25px;
-    border-color: #ffffff43;
+    border-color: #61616143;
     border-style: solid;
     width: 80%;
 }
 
 .copyright-text{
-    color: white;
-    font: 1em 'poppins', serif;
+    color: #0e0e0e;
+    font: 1.2em 'poppins', sans-serif;
     text-align: center;
     margin-top: 25px;
 }

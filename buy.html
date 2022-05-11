@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="assets/css/navbar.css">
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/buy.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap" rel="stylesheet">
     <link
         href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Poppins:wght@500;900&display=swap">
@@ -116,6 +117,26 @@
             </div>
         </div>
     </div>
+    <footer class="footer" id="footer">
+        <div class="top-level">
+            <div class="segment"><span class="foot-text head">Subject</span> <span class="foot-text value">CSE 326</span></div>
+            <div class="segment"><span class="foot-text head">Topic</span> <span class="foot-text value">Property Deal</span></div>
+            <div class="segment"><span class="foot-text head">Submitted to</span> <span class="foot-text value">Ashish Srivastava</span></div>
+        </div>
+        <div style="margin-top: 50px;">
+            <ul class="socials">
+                <li class="social-icon"><img src="assets/img/github.png" class="social-img" alt=""></li>
+                <li class="social-icon"><img src="assets/img/insta.png" class="social-img" alt=""></li>
+                <li class="social-icon"><img src="assets/img/twitter-24.png" class="social-img" alt=""></li>
+                <li class="social-icon"><img src="assets/img/linkedin.png" class="social-img" alt=""></li>
+            </ul>
+        </div>
+        <hr class="footer-break">
+        <div class="copyright-text" id="copyright"></div> 
+        <script>
+            document.getElementById("copyright").innerHTML = `&#169; Gonii - ${new Date().getFullYear()}`
+        </script>
+    </footer>
     <script src="assets/js/script.js"></script>
 </body>
 
