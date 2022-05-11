@@ -35,16 +35,30 @@ footer{
 .socials{
     display: grid;
     list-style-type: none;
-    width: 300px;
+    width: 250px;
     grid-template-columns: repeat(4, 1fr);
     margin: auto;
 }
 
 .social-img{
-    width: 25px;
+    width: 24px;
     filter: invert(80%);
 }
 
 .social-img:hover{
     filter: invert(100%);
+}
+
+.footer-break{
+    margin-top: 25px;
+    border-color: #ffffff43;
+    border-style: solid;
+    width: 80%;
+}
+
+.copyright-text{
+    color: white;
+    font: 1em 'poppins', serif;
+    text-align: center;
+    margin-top: 25px;
 }
