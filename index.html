@@ -289,8 +289,11 @@
                 <li class="social-icon"><img src="assets/img/linkedin.png" class="social-img" alt=""></li>
             </ul>
         </div>
-        <hr>
-        <div>(c) Gonii</div>
+        <hr class="footer-break">
+        <div class="copyright-text" id="copyright"></div> 
+        <script>
+            document.getElementById("copyright").innerHTML = `&#169; Gonii - ${new Date().getFullYear()}`
+        </script>
     </footer>
 </body>
 
